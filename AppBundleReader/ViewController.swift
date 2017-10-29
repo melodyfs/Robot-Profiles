@@ -63,6 +63,11 @@ extension ViewController: UITableViewDataSource {
         cell.personalityLabel.text = robot.personality
         cell.phraseLabel.text = robot.phrase
         
+        DispatchQueue.main.async {
+            
+            cell.imageView?.getImageFromURL(url: robot.image)
+        }
+        
         return cell
     }
 }

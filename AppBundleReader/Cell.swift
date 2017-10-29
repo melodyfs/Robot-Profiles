@@ -14,5 +14,6 @@ class Cell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var personalityLabel: UILabel!
     @IBOutlet weak var phraseLabel: UILabel!
+    @IBOutlet weak var robotImageView: UIImageView!
     
 }
